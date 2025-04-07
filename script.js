@@ -1,8 +1,10 @@
 // Define two variants for the referral banner message
 const variants = [
   "Refer a friend and get $20 off your next service! (Variant A)",
-  "Invite your friends and earn exclusive rewards! (Variant B)"
+  "Invite your friends and unlock exclusive rewards! (Variant B)",
+  "Share your unique referral link and earn bonus points! (Variant C)"
 ];
+
 
 // Randomly assign a variant to simulate an A/B test
 const variantIndex = Math.random() < 0.5 ? 0 : 1;
