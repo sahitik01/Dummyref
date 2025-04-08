@@ -1,24 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<<meta property="og:url" content="https://sahitik01.github.io/Dummyref/landing.html" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Earn $20 Off Your Next Service at Zenoti!" />
-<meta property="og:description" content="Refer a friend using your unique referral code and enjoy exclusive rewards. Click to learn more!" />
-<meta property="og:image" content="https://cdn.sites.tapfiliate.com/tapfiliate.com/2023/03/referral-code.jpg" />
->
+<head>
   <meta charset="UTF-8">
-  <title>Referral Experiment</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zenoti Referral – Earn Rewards!</title>
+  
+  <!-- Open Graph Meta Tags for WhatsApp and Facebook Sharing -->
+  <meta property="og:url" content="https://sahitik01.github.io/Dummyref/landing.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Earn $20 Off Your Next Service at Zenoti!" />
+  <meta property="og:description" content="Refer a friend using your unique referral code and enjoy exclusive rewards. Click to learn more!" />
+  <meta property="og:image" content="https://cdn.sites.tapfiliate.com/tapfiliate.com/2023/03/referral-code.jpg" />
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f4;
+      margin: 0;
+      text-align: center;
+    }
+    .banner {
+      background-color: #007bff;
+      color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .button {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
 
+  <!-- Referral Banner -->
   <div id="referral-banner" class="banner">
-    <!-- Referral banner text will be injected by script.js -->
+    <!-- Banner text will be set dynamically -->
   </div>
-
-  <button id="copy-link" class="button">Copy Referral Link</button>
-  <button id="share-email" class="button">Share via Email</button>
-
+  
+  <!-- Display the referral link for demo purposes -->
+  <p>Your referral link: <span id="referral-link"></span></p>
+  
+  <!-- Share Buttons -->
+  <div>
+    <a id="whatsapp-share" class="button" href="#" target="_blank">Share via WhatsApp</a>
+    <a id="facebook-share" class="button" href="#" target="_blank">Share via Facebook</a>
+    <button id="copy-link" class="button">Copy Referral Link</button>
+    <button id="share-email" class="button">Share via Email</button>
+  </div>
+  
+  <!-- Load the script -->
   <script src="script.js"></script>
 </body>
 </html>
